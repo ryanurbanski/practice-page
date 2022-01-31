@@ -7,22 +7,35 @@ body {
 }
 
 .content-container {
-    background-color: blanchedalmond;
+    background-color: green;
+    margin-left: 13%;
+    margin-right: 13%;
 }
 
 .flexbox {
     background-color: lightcoral;
+    flex-direction: row;
+    display: flex;
+    height: 225px;
 }
 
 .box1 {
     background-color: lightgreen;
+    flex: 1 1 auto;
+    text-align: center;
+    line-height: 225px;
 }
 
 .box2 {
     background-color: lightskyblue;
-
+    flex: 1 1 auto;
+    text-align: center;
+    line-height: 225px;
 }
 
 .box3 {
     background-color: lightgoldenrodyellow;
+    flex: 1 1 auto;
+    text-align: center;
+    line-height: 225px;
 }
