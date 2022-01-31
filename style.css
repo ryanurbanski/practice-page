@@ -12,6 +12,8 @@ body {
     margin-right: 13%;
 }
 
+
+
 .flexbox {
     background-color: lightcoral;
     flex-direction: row;
@@ -20,22 +22,46 @@ body {
 }
 
 .box1 {
-    background-color: lightgreen;
+    /* background-color: lightgreen; */
+    background-color: #A6A9F0;
     flex: 1 1 auto;
     text-align: center;
     line-height: 225px;
+    max-width: 100%;
+    background:
+        linear-gradient(
+            rgba(255, 0, 0, 0.45),
+            rgba(255, 0, 0, 0.45)
+        ),
+        url(./starter_files/images/donate.jpg);
 }
 
 .box2 {
-    background-color: lightskyblue;
+    /* background-color: lightskyblue; */
+    background-color: #A6A9F0;
     flex: 1 1 auto;
     text-align: center;
     line-height: 225px;
+    max-width: 100%;
+    background:
+        linear-gradient(
+            rgba(255, 0, 0, 0.45),
+            rgba(255, 0, 0, 0.45)
+        ),
+        url(./starter_files/images/volunteer.jpg);
 }
 
 .box3 {
-    background-color: lightgoldenrodyellow;
+    /* background-color: lightgoldenrodyellow; */
+    background-color: #A6A9F0;
     flex: 1 1 auto;
     text-align: center;
     line-height: 225px;
+    max-width: 100%;
+    background:
+        linear-gradient(
+            rgba(255, 0, 0, 0.45),
+            rgba(255, 0, 0, 0.45)
+        ),
+        url(./starter_files/images/location.png);
 }
